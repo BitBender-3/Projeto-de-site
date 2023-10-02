@@ -73,6 +73,7 @@ nav > a{
     color: #c9dad1;
     padding: 7px;
     height: 15%;
+    text-shadow: 10px;
 }
 
 nav > a:hover{
