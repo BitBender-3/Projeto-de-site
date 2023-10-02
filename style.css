@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Rajdhani&display=swap');
+
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (min-width: 600px) {
+}
+@media only screen and (min-width: 768px) {
+}
+@media only screen and (min-width: 992px) {
+}
+@media only screen and (min-width: 1200px) {   
+}
+
+a.autor{
+    background: #6dce9a;
+    text-decoration: none;
+    color: #013614;
+}
+
+strong.hurry a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.884);
+    border: 1px solid rgba(236, 220, 220, 0.651);
+    border-radius: 10px;
+}
+
+strong.hurry a:hover{
+    background: rgba(139, 128, 128, 0.897);
+}
+
+a.autor::after{
+    content: ' ⇦ ';
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+strong{
+    color: #00521D;
+}
+
+body{
+    background: #E8E6C3;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-image: linear-gradient(#177541, #1fa059, #0c8141, #198047);
+    text-align: center;
+}
+
+h1, h3{
+    padding: 20px;
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav{
+    text-align: left;
+    padding: 20px;
+    height: 6px;
+}
+
+nav > a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #c9dad1;
+    padding: 7px;
+    height: 15%;
+}
+
+nav > a:hover{
+    background: #03662e;
+    border: 1px solid #043D1D;
+    border-radius: 30px;
+    box-shadow: 1px;
+}
+
+h2{
+    font-family: 'Petit Formal Script', cursive;
+    color: #269859;
+}
+
+main{
+    background: white;
+    padding: 40px;
+    margin: auto;
+    min-width:300px;
+    max-width: 1000px;
+}
+
+.sub{
+    background-image: linear-gradient(#A2E9C1, #B7EFCD, #DEF7E9);
+    width: 74%;
+}
+
+.sub3{
+    background-image: linear-gradient(#EFE0F7, #F6F6F8, #DCE6FD);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 10px 0 0;
+}
+
+main img{
+    width: 100%;
+}
+
+aside iframe{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    background-color: #cbcbd8ef;
+}
+
+.b2{
+    background: #A8FC6A;
+    border-radius: 0 0 10px 10px;
+}
